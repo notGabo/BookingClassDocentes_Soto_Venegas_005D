@@ -26,7 +26,9 @@ Si deseas ver el repositorio de los Alumnos, solo debes acceder a este <a href='
 
 El link del apk se encuentra aqui
 
-``` ```
+<a href='https://github.com/notGabo/BookingClassAlumnos_Soto_Venegas_005D/releases/tag/ExamenDocentes'>Link github</a>
+
+<a href='https://github.com/notGabo/BookingClassAlumnos_Soto_Venegas_005D/releases/download/ExamenDocentes/app-debug.apk'>Descarga directa</a>
 
 ## Instalacion del proyecto
 
