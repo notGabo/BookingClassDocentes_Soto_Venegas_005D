@@ -1,0 +1,33 @@
+ion-card.cardClase {
+    --background: #433388;
+    position: relative;
+    isolation: isolate;
+}
+
+p,
+ion-card-title {
+    color: white;
+
+}
+
+.md {
+    --ion-item-background: #433388;
+    --ion-background-color: #E9DDF3;
+    --ion-toolbar-background: #433388;
+    --ion-text-color: #E9DDF3;
+}
+
+.ios {
+    --ion-item-background: #433388;
+    --ion-background-color: #E9DDF3;
+    --ion-toolbar-background: #433388;
+    --ion-text-color: #E9DDF3;
+}
+
+img {
+    border-radius: 5px;
+}
+
+ion-card {
+    border-radius: 10px;
+}

@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" text="" color="custom1"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <form [formGroup]="formularioRegistro">
+    <ion-card>
+
+      <ion-item>
+        <ion-label>Correo</ion-label>
+        <ion-input type="email" formControlName="correo" placeholder="docente@duocuc.cl"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Nombre</ion-label>
+        <ion-input type="text" formControlName="nombre" pattern="[A-za-z]{3,12}" placeholder="Roberto" required>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Apellido</ion-label>
+        <ion-input type="text" formControlName="apellido" pattern="[A-za-z]{3,12}" placeholder="Olivares" required>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Contraseña</ion-label>
+        <ion-input type="password" formControlName="password" placeholder="*********" required></ion-input>
+      </ion-item>
+
+    </ion-card>
+    <center>
+      <ion-button (click)="RevisarCorreo()" type="submit" color="tertiary" shape="round">
+        Registrarse
+      </ion-button>
+    </center>
+  </form>
+</ion-content>
+
+<ion-footer>
+  <div class="ocean">
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </div>
+</ion-footer>
